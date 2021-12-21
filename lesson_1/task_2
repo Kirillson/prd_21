@@ -1,0 +1,12 @@
+def main():
+    txt = input()
+    
+    revers = (txt[::-1])
+    
+    if revers == txt:
+        print("Полидром")
+    else:
+        print("Не является полидромом")
+                
+if __name__ == "__main__":
+    main()
