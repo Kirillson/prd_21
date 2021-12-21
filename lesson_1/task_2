@@ -1,8 +1,6 @@
 def main():
     txt = input()
-    
     revers = (txt[::-1])
-    
     if revers == txt:
         print("Полидром")
     else:
